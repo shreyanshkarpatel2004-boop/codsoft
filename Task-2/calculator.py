@@ -43,7 +43,7 @@ def main():
     result = calculate(number1, number2, operation)
 
     if result is None:
-        print("Error: Division by zero is undefinedh.")
+        print("Error: Division by zero is undefined.")
         return
 
     symbols = {"1": "+", "2": "-", "3": "*", "4": "/"}
